@@ -14,9 +14,5 @@ public class RegularCustomer extends Customer{
         return 0.1*price;
     }
 
-    Override
-    public String getName() {
-        return "customerName";
-    }
 
 }
