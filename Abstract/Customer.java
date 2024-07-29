@@ -14,5 +14,4 @@ abstract  class Customer {
     public String getName() {
         return customerName;
     }
-
 }
