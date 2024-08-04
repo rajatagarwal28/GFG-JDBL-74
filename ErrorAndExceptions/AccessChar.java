@@ -17,11 +17,6 @@ public class AccessChar {
 //            return name.charAt(0);
 //        }
 
-        try {
-            return name.charAt(index);
-        } catch (Exception e) {
-            Error r
 
-        }
     }
 }

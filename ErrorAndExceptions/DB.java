@@ -21,9 +21,7 @@ public class DB {
         }
     }
 
-
-
-    public void writeData(String key, String value) {
+    public void writeData(String key, String value) throws Exception{
         hm.put(key,value);
     }
 }
