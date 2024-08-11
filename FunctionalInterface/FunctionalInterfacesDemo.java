@@ -17,10 +17,10 @@ public class FunctionalInterfacesDemo {
         cities.add("Bangalore");
 
 
-        java.util.function.Predicate<String> checkDelhiPredicate = city -> {
+        Predicate<String> checkDelhiPredicate = city -> {
             return "Delhi".equals(city);
         };
-        java.util.function.Predicate<String> checkMumbaiPredicate = city -> "Mumbai".equals(city);
+        Predicate<String> checkMumbaiPredicate = city -> "Mumbai".equals(city);
 
         cities.stream().filter(checkDelhiPredicate.or(checkMumbaiPredicate)).forEach(city -> System.out.println(city));
 

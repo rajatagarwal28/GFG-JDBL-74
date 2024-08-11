@@ -30,12 +30,12 @@ public class CollectionDemo {
     public static void main(String[] args) {
         List<String> arrayListlist = new ArrayList<String>(); // resizable array
         List<String> linkedList = new LinkedList<String>(); // resizable array
-
-        arrayListlist.add();
-        arrayListlist.remove();
-        arrayListlist.addAll();
-        arrayListlist.iterator();
-        arrayListlist.forEach();
+//
+//        arrayListlist.add();
+//        arrayListlist.remove();
+//        arrayListlist.addAll();
+//        arrayListlist.iterator();
+//        arrayListlist.forEach();
 
 
 
